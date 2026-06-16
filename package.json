@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dishathanki/Backend/issues"
   },
-  "homepage": "https://github.com/dishathanki/Backend#readme"
+  "homepage": "https://github.com/dishathanki/Backend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }

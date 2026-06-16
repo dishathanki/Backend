@@ -50,12 +50,3 @@ const fs = require('fs');
     //     if(err) console.log("removed");
     //     else console.log("Removed");
     // })
-
-                            //  HTTP Module
-
-const http = require('http');
-
-const server = http.createServer(function(req,res){
-    res.end("Mahadev Mahadev");
-})
-server.listen(3000);
