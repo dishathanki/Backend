@@ -2,6 +2,9 @@ const express = require('express');
 const { log, error } = require('node:console');
 const app = express()
 
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
 app.use(function(req,res,next){
     console.log("Middleware working");
     next();
