@@ -1,0 +1,11 @@
+Database -> Collection -> Document
+
+how things are managed between database and our backend code
+
+------------------------------------------------------------------
+
+CODE                           Database 
+--------------------------------------------
+mongoose.connect    ->         database create
+model create        ->         Collection
+CREATE code         ->         document
